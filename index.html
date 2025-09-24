@@ -3,9 +3,37 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dhana Steen">
+    <meta name="description" content="TimTim Refer a Friend">
     <title>Refer a Friend - TimTim</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
+    <header>
+      <h1>REFER A FRIEND</h1>
+      <p>Help us find employees who can help us deliver exceptional customer service.</p>
+    </header>
+
+    <form id="referral-form" action="https://formsubmit.co/el/jebuga" method="POST">
+      <label for="name">First & Last Name:
+        <input type="text" id="staffname" name="staffname" placeholder="Enter your name" required/>
+      </label> <br> <br>
+      <label for="name">Referred's First & Last Name:
+        <input type="text" id="refname" name="refname" placeholder="Enter referred's name" required/>
+      </label> <br> <br>
+      <label for="email">Referred's Email Address:
+        <input type="email" id="email" name="email" placeholder="Enter referred's email address" required/>
+      </label> <br> <br>
+      <label for="phonenum">Referred's Telephone Number:
+        <input type="number" id="phonenum" name="phonenum" placeholder="Enter referred's phone number" required/>
+      </label> <br> <br>
+      <label for="reason">Why Should We Hire This Person? <br>
+        <textarea id="reason" name="reason" rows="4" cols="30"></textarea>
+      </label>
+      <input type="checkbox" id="consent" name="consent" value="Consent" class="inline" required />
+      <label for="consent">I have received permission from the referred to share their contact information.</label> <br>
+      <input type="button" value="REFER" id="refer"/>
+    </form>
   </body>
 </html>
