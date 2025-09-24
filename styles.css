@@ -1,0 +1,28 @@
+body{
+  background-color: #E5E2E1;
+  color: #E39776;
+  font-family: Verdana, sans-serif;
+}
+
+header{
+  background-color: black;
+}
+
+h1 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+input[type="button"]{
+  display: block;
+  width: 40%;
+  margin: 1em auto;
+  height: 32px;
+  background-color: #E39776;
+  color: #E5E2E1;
+  font-weight: bold;
+}
